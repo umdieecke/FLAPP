@@ -28,7 +28,7 @@
       "email": "servus@umdieecke.at"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "Knister\\": "src/"
