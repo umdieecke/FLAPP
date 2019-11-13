@@ -2,21 +2,10 @@
   "name": "knister/flapp",
   "description": "A collection of useful helpers and convenient ways to access other libs",
   "type": "library",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://asset-packagist.org"
-    }
-  ],
   "require": {
     "phpmailer/phpmailer": "^6.0",
     "setasign/fpdf": "^1.8",
     "altorouter/altorouter": "1.1.0",
-    "oomphinc/composer-installers-extender": "^1.1",
-    "bower-asset/jquery": "^2.2",
-    "npm-asset/bxslider": "^4.2.14",
-    "npm-asset/slicknav": "^1.0.8",
-    "npm-asset/jquery-form-validator": "^2.3.79",
     "ext-curl": "*",
     "ext-json": "*",
     "geerlingguy/request": "1.x-dev"
@@ -32,12 +21,6 @@
   "autoload": {
     "psr-4": {
       "Knister\\": "src/"
-    }
-  },
-  "extra": {
-    "installer-types": ["bower-asset", "npm-asset"],
-    "installer-paths": {
-      "public/assets/{$vendor}/{$name}/": ["type:bower-asset", "type:npm-asset"]
     }
   }
 }
